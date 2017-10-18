@@ -1,5 +1,14 @@
 /* Nav Bar CSS */
+body .navbar-default .navbar-text {
+    color: black;
+    margin-left:400px;
+    
+}
 
+.navbar-nav  li a {
+    color:red;
+    font-size:24px;
+}
 
 /* Header CSS */
 
