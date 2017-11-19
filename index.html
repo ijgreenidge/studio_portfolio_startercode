@@ -1,70 +1,143 @@
-<!-- 
-        1.1 Wireframe your project
-        1.2 Fork and clone the repo and set up your project workspace
-        2.1 Link your files in the head of the docment Add a Nav Bar to your site - It should have three links (Portfolio, About, and Contact) 
-        2.2 Add a div for each section. Within section add a contatiner div with the appropriate number of rows and columns 
-        3.1 Add thumbnails and other custom component (button, modal, font) using bootstrap Documentation 
-        3.2 Add CSS and add your site to gh-pages 
--->
 
 <!DOCTYPE html>
-<head>   
-<link rel="stylesheet" href="css/style.css" type="text/css" />
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
 
+<head>
+  <link rel="stylesheet" href="css/style.css" type="text/css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.6.0/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.5.0/firebase-database.js"></script>
+
+
+  <script type="text/javascript" src="js/script.js"></script>
 </head>
 
 <body>
-  
-    <!-- Nav Bar -->
-    <nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      
-    </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li><a href="#">Link <span class="sr-only"></span></a></li>
-        <li><a href="#">Link</a></li>
-       
-        
-      </ul>     
-       <h1  class="navbar-text">Imani Greenidge</h1>
-      
-       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Link</a></li>
-        
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Link</a></li>
-        
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
-    
-    <!-- Header -->
-    
-
-    <!-- Portfolio Grid Section -->
-    
-
-    <!-- About Section -->
+  <!-- Nav Bar -->
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
    
 
-    <!-- Contact Section -->
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a href="https://github.com/ijgreenidge" target="_blank">GitHub<span class="sr-only"></span></a></li>
+          <li><a href="https://www.linkedin.com/in/imani-greenidge-52952b53/" target="_blank">LinkedIn</a></li>
 
 
-    <!-- Footer -->
+        </ul>
+        
+
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="">Link</a></li>
+
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#contact.html">Contact</a></li>
+
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+
+    </div>
+    <!-- /.container-fluid -->
+  </nav>
+
+  
+  <div class="container">
+     <center><h1 class="name">Imani Greenidge</h1></center>
+    <div class="row info">
+      
+      <div class="col-md-6 me">
+        <img src="https://i.imgur.com/t2PSey7.png" class="imanipic"></img>
+      </div>
+
+      <div class="col-md-6 ">
+        <h1 class="about">About Me</h1>
+        <h3>Imani Greenidge. Aspiring software developer, currently a senior at Brooklyn High School for Law and Technology. My biggest goal is just to be successful. This all started as something to do afterschool then slowly developed into a passion. I feel like I am constantly improving to reach my goal. They say the person with big dreams is more powerful than the one with all the facts. </h3>
+      </div>
+      </div>
+     
+
+    <div class="row">
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="images/tvg.png" alt="...">
+      <div class="caption">
+        <h3>The Vaan Group Agency Website</h3>
+        <p>This was a website I worked on over the summer of 2017 for The Vaan Group. The Website isnt live yet.</p>
+        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="images/qtg.png" alt="...">
+      <div class="caption">
+        <h3>Quick Tour Guide</h3>
+        <p>Quick Tour Guide gives you an overview of any city you. It gives you location on the map, images from your chosen city and videos too.</p>
+        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="https://3kzgwm2kd7x6393b8l3r63yu-wpengine.netdna-ssl.com/wp-content/uploads/2013/12/Coming-Soon-Placeholder.jpg" alt="...">
+      <div class="caption">
+        <h3>COMING SOON</h3>
+        <p>...</p>
+        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+   <div class="row">
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="https://3kzgwm2kd7x6393b8l3r63yu-wpengine.netdna-ssl.com/wp-content/uploads/2013/12/Coming-Soon-Placeholder.jpg" alt="...">
+      <div class="caption">
+        <h3>COMING SOON</h3>
+        <p>...</p>
+        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="https://3kzgwm2kd7x6393b8l3r63yu-wpengine.netdna-ssl.com/wp-content/uploads/2013/12/Coming-Soon-Placeholder.jpg" alt="...">
+      <div class="caption">
+        <h3>COMING SOON</h3>
+        <p>...</p>
+        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="https://3kzgwm2kd7x6393b8l3r63yu-wpengine.netdna-ssl.com/wp-content/uploads/2013/12/Coming-Soon-Placeholder.jpg" alt="...">
+      <div class="caption">
+        <h3>COMING SOON</h3>
+        <p>...</p>
+        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+    </div>
+
+  </div>
+
 </body>
 
 </html>

@@ -1,3 +1,5 @@
+
+
 /* Nav Bar CSS */
 body .navbar-default .navbar-text {
     color: black;
@@ -5,13 +7,14 @@ body .navbar-default .navbar-text {
     
 }
 
+
+
 .navbar-nav  li a {
-    color:red;
     font-size:24px;
 }
 
-/* Header CSS */
 
+/* Header CSS */
 
 
 /* Section CSS */
@@ -20,11 +23,45 @@ body .navbar-default .navbar-text {
 
 /* About Section CSS */
 
+.test{
+    background-color:#87CEFA;
+}
+
+.me{
+   max-width:500px;
+   padding-bottom: 125px;
+}
+.name{
+    font-family: Blippo, fantasy;
+    
+    padding-bottom: 30px;
+}
+.imanipic{
+    width:400px;
+    height:400px;
+}
+
+.about{
+    text-align: left;
+}
 
 
 /* Portfolio Item CSS */
 
+#tvg {
+    width:400px;
+    height:400px;
+    
+}
 
+
+.top{
+    padding-bottom: 25px;
+}
+
+.bottom{
+    padding-bottom: 25px;
+}
 
 /* Footer CSS */
 
