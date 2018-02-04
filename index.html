@@ -1,143 +1,227 @@
-
 <!DOCTYPE html>
+<html>
 
 <head>
   <link rel="stylesheet" href="css/style.css" type="text/css" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/4.6.0/firebase.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/4.5.0/firebase-database.js"></script>
-
-
   <script type="text/javascript" src="js/script.js"></script>
+
+
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <link rel="shortcut icon" type="image/png" href="images/imanilogo.png" />
 </head>
 
 <body>
+  <div class="parallax-container">
+    <div class="parallax"><img src="images/imaniraishanhackathon.jpg" /></div>
+  </div>
 
-  <!-- Nav Bar -->
-  <nav class="navbar navbar-inverse">
-    <div class="container-fluid">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-   
-
-      </div>
-
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav">
-          <li><a href="https://github.com/ijgreenidge" target="_blank">GitHub<span class="sr-only"></span></a></li>
-          <li><a href="https://www.linkedin.com/in/imani-greenidge-52952b53/" target="_blank">LinkedIn</a></li>
-
-
-        </ul>
-        
-
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="">Link</a></li>
-
-        </ul>
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#contact.html">Contact</a></li>
-
-        </ul>
-      </div>
-      <!-- /.navbar-collapse -->
-
+  <nav>
+    <div class="nav-wrapper grey darken-4">
+      <a href="index.html" class="brand-logo center"><img src="images/imanilogo.png" width="60" height="60" /></a>
+      <ul id="nav-mobile" class="right">
+        <li><a href="https://github.com/ijgreenidge" target="_blank">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/imani-greenidge-52952b53/" target="_blank">LinkedIn</a></li>
+        <li><a href="collapsible.html"></a></li>
+      </ul>
     </div>
-    <!-- /.container-fluid -->
   </nav>
 
-  
-  <div class="container">
-     <center><h1 class="name">Imani Greenidge</h1></center>
-    <div class="row info">
-      
-      <div class="col-md-6 me">
-        <img src="https://i.imgur.com/t2PSey7.png" class="imanipic"></img>
-      </div>
 
-      <div class="col-md-6 ">
-        <h1 class="about">About Me</h1>
-        <h3>Imani Greenidge. Aspiring software developer, currently a senior at Brooklyn High School for Law and Technology. My biggest goal is just to be successful. This all started as something to do afterschool then slowly developed into a passion. I feel like I am constantly improving to reach my goal. They say the person with big dreams is more powerful than the one with all the facts. </h3>
+  <style>
+    a:hover {
+      color: grey;
+    }
+
+    .brand-logo {
+      margin-left: 25px;
+    }
+
+    .parallax-container {
+      height: 650px;
+    }
+  </style>
+
+  <div class="container">
+    <div class="row">
+      <h2 class="header about">About Imani Greenidge</h2>
+      <p class="flow-text"> Imani Greenidge, aspiring software developer and entrepreneur, is currently a senior at Brooklyn High School for Law and Technology. My biggest goal is just to be successful. This all started as something to do afterschool then slowly developed
+        into a passion. I am in a constant pursuit to better my skills and perfect my craft.</p>
+
+    </div>
+    <div class="divider"></div>
+
+    <div class="section">
+      <div class="row">
+        <div class="col s4">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="images/kndref.png">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Kidz Next Door Pro-Am Reference<i class="material-icons right">more_vert</i></span>
+              <p class="flow-text"><a href="https://ijgreenidge.github.io/knd-reference/html/index.html" target="_blank">Visit Page!</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Kidz Next Door Pro-Am Reference<i class="material-icons right">close</i></span>
+              <p class="flow-text">This is a website I made for fun in my spare time and to test out some of my skills.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s4">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="images/qtg.png">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Quick Tour Guide<i class="material-icons right">more_vert</i></span>
+              <p class="flow-text"><a href="https://ijgreenidge.github.io/QuickTourGuide/" target="_blank">Visit Page!</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Quick Tour Guide<i class="material-icons right">close</i></span>
+              <p class="flow-text"> Quick Tour Guide shows you photos and YouTube videos from your desired city. It also shows you location on the map. You get to see the culture even before you step foot in that city and get a good first impression.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s4">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="images/tvg.png">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">The Vaan Group Website<i class="material-icons right">more_vert</i></span>
+              <p class="flow-text"><a href="#" target="_blank"></a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">The Vaan Group Website<i class="material-icons right">close</i></span>
+              <p class="flow-text">This is a project I worked on as an intern for The Vaan Group over the summer of 2017. The Website isnt live as yet.</p>
+            </div>
+          </div>
+        </div>
+
+
       </div>
-      </div>
-     
+    </div>
 
     <div class="row">
-  <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <img src="images/tvg.png" alt="...">
-      <div class="caption">
-        <h3>The Vaan Group Agency Website</h3>
-        <p>This was a website I worked on over the summer of 2017 for The Vaan Group. The Website isnt live yet.</p>
-        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+      <div class="col s4">
+        <div class="card">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="https://3kzgwm2kd7x6393b8l3r63yu-wpengine.netdna-ssl.com/wp-content/uploads/2013/12/Coming-Soon-Placeholder.jpg">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">COMING SOON!<i class="material-icons right">more_vert</i></span>
+            <p class="flow-text"><a href="#"></a></p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">COMING SOON!<i class="material-icons right">close</i></span>
+            <p class="flow-text">New Projects Coming Soon!</p>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-  
-  <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <img src="images/qtg.png" alt="...">
-      <div class="caption">
-        <h3>Quick Tour Guide</h3>
-        <p>Quick Tour Guide gives you an overview of any city you. It gives you location on the map, images from your chosen city and videos too.</p>
-        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-      </div>
-    </div>
-  </div>
-  
-  <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <img src="https://3kzgwm2kd7x6393b8l3r63yu-wpengine.netdna-ssl.com/wp-content/uploads/2013/12/Coming-Soon-Placeholder.jpg" alt="...">
-      <div class="caption">
-        <h3>COMING SOON</h3>
-        <p>...</p>
-        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-      </div>
-    </div>
-  </div>
-</div>
 
-   <div class="row">
-  <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <img src="https://3kzgwm2kd7x6393b8l3r63yu-wpengine.netdna-ssl.com/wp-content/uploads/2013/12/Coming-Soon-Placeholder.jpg" alt="...">
-      <div class="caption">
-        <h3>COMING SOON</h3>
-        <p>...</p>
-        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+      <div class="col s4">
+        <div class="card">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="https://3kzgwm2kd7x6393b8l3r63yu-wpengine.netdna-ssl.com/wp-content/uploads/2013/12/Coming-Soon-Placeholder.jpg">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">COMING SOON!<i class="material-icons right">more_vert</i></span>
+            <p class="flow-text"><a href="#"></a></p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">COMING SOON!<i class="material-icons right">close</i></span>
+            <p class="flow-text">New Projects Coming Soon!</p>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-  
-  <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <img src="https://3kzgwm2kd7x6393b8l3r63yu-wpengine.netdna-ssl.com/wp-content/uploads/2013/12/Coming-Soon-Placeholder.jpg" alt="...">
-      <div class="caption">
-        <h3>COMING SOON</h3>
-        <p>...</p>
-        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-      </div>
-    </div>
-  </div>
-  
-  <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <img src="https://3kzgwm2kd7x6393b8l3r63yu-wpengine.netdna-ssl.com/wp-content/uploads/2013/12/Coming-Soon-Placeholder.jpg" alt="...">
-      <div class="caption">
-        <h3>COMING SOON</h3>
-        <p>...</p>
-        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-      </div>
-    </div>
-  </div>
-</div>
 
+      <div class="col s4">
+        <div class="card">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="https://3kzgwm2kd7x6393b8l3r63yu-wpengine.netdna-ssl.com/wp-content/uploads/2013/12/Coming-Soon-Placeholder.jpg">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">COMING SOON!<i class="material-icons right">more_vert</i></span>
+            <p class="flow-text"><a href="#"></a></p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">COMING SOON!<i class="material-icons right">close</i></span>
+            <p class="flow-text">New Projects Coming Soon!</p>
+          </div>
+        </div>
+      </div>
     </div>
 
+    <!--<ul>-->
+    <!--    <h5><li>"The person with big dreams is more powerful than the one with all the facts" <br>-->
+    <!--    - H. Jackson Brown, Jr.</li></h5>-->
+    <!--    <br>-->
+    <!--    <h5><li>"So many of our dreams at first seem Impossible, they seem Improbable, and then, when we summon the will, they soon become INEVITABLE" - Christopher Reeve</li></h5>-->
+    <!--    <br>-->
+    <!--    <h5><li>""</li></h5>-->
+    <!--    <br>-->
+    <!--    <h5><li>""</li></h5>-->
+    <!--</ul>-->
+
   </div>
+
+
+  <div class="parallax-container">
+    <div class="parallax"><img src="images/imanivaangroup.jpg" /></div>
+    
+    <!--https://hdwallsource.com/img/2014/7/high-tech-wallpapers-30881-31611-hd-wallpapers.jpg-->
+  </div>
+
+  <footer class="page-footer grey darken-4">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text flow-text">Thank You For Visiting My Website!</h5>
+          <p class="grey-text text-lighten-4 flow-text">Shoutout to </p>
+          <img src="http://www.arborbrothers.org/wp-content/uploads/2016/08/scripted_primary_mark_orange.png" width="350"></img>
+         
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h4 class="white-text flow-text">Quotes</h4>
+          <ul>
+            <li>
+              <p class="grey-text text-lighten-3">"The person with the big dreams is more powerful than the one with all the facts." <br> 
+              - H. Jackson Brown</p>
+            </li>
+            <li>
+              <p class="grey-text text-lighten-3">"So many of our dreams at first seem Impossible then they seem Improbable, and then, when we summon the will, they soon become INEVITABLE." - Christopher Reeves</p>
+            </li>
+            <li>
+              <p class="grey-text text-lighten-3">"The darkest nights make the brightest stars" - Witt Lowry</p>
+            </li>
+            <li>
+              <p class="grey-text text-lighten-3 ">"I never ask anyone to change, so I don't understand why so many people expect me to change" - Imani Greenidge</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        Imani Greenidge
+        <!--<a class="grey-text text-lighten-4 right" href="#!">More Links</a>-->
+      </div>
+    </div>
+  </footer>
 
 </body>
+
+
 
 </html>
